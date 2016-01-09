@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :http => "https://github.com/yieldmo/sdk-beta/archive/beta-3.zip" }
   s.preserve_paths = "sdk-beta-beta-3"
-  s.vendored_frameworks = "sdk-beta-beta-3/iOS/Yielmo.framework"
-  s.resources = "sdk-beta-beta-3/iOS/Yielmo.bundle"
+  s.vendored_frameworks = "**/Yielmo.framework"
+  s.resources = "**/Yielmo.bundle"
   s.weak_frameworks = "AdSupport"
   s.frameworks = "CoreLocation", "StoreKit", "AVFoundation", "ImageIO", "AVKit", "CoreMedia", "MobileCoreServices"
   s.requires_arc = true
