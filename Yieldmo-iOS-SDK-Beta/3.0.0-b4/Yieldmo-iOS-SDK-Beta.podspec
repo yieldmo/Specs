@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "Yieldmo-iOS-SDK"
-  s.version      = "3.0.0"
+  s.name         = "Yieldmo-iOS-SDK-Beta"
+  s.version      = "3.0.0b4"
   s.summary      = "Yieldmo iOS SDK to deliver ads to your Mobile app."
 
   s.description  = <<-DESC
