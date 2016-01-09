@@ -19,12 +19,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/yieldmo/yieldmo-ios-sdk/archive/v2.3.5.zip" }
   s.preserve_paths = "yieldmo-ios-sdk-2.3.5"
   s.vendored_frameworks = "yieldmo-ios-sdk-2.3.5/ym.framework"
-  s.resource_bundles = {
-    'ym' => [
-        'Pod/**/*.xib',
-        'Pod/**/*.ttf'
-    ]
-  }
+  s.resources = "yieldmo-ios-sdk-2.3.5/ym.bundle"
   s.weak_frameworks = "AdSupport"
   s.frameworks = "CoreLocation", "StoreKit"
   s.requires_arc = true
