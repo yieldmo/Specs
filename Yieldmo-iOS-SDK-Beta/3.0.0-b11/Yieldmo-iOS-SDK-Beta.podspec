@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.authors            = "Yieldmo, Inc."
 
   s.platform     = :ios, "8.0"
-  s.source       = { :http => "https://github.com/yieldmo/sdk-beta/archive/beta-10.zip" }
+  s.source       = { :http => "https://github.com/yieldmo/sdk-beta/archive/beta-11.zip" }
   s.preserve_paths = "sdk-beta-beta-11"
   s.vendored_frameworks = "sdk-beta-beta-11/iOS/Yieldmo.framework"
   s.resources = "sdk-beta-beta-11/iOS/Yieldmo.bundle"
